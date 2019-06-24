@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Contact from './Contact';
+import Education from './Education';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <li>jQuery</li>
           </ul>
           <Contact/>
+          <Education />
       </main>
     </div>
   );
