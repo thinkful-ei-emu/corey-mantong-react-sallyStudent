@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Contact from './Contact';
 
 function App() {
   return (
@@ -18,13 +19,8 @@ function App() {
             <li>JavaScript</li>
             <li>jQuery</li>
           </ul>
-        
-        <section>
-          <h2>Contact Info</h2>
-          <p>Twitter: <a href="http://twitter.com/sallystudent">@SallyStudent</a></p>
-      </section>
+          <Contact/>
       </main>
-   
     </div>
   );
 }
